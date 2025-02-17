@@ -28,3 +28,8 @@ To run this project locally, follow these steps:
 
    ```bash
    git clone https://github.com/Ars288/myportfolio.git
+2. Navigate into the project directory:
+
+   ```bash
+   cd myportfolio
+
