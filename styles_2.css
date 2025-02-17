@@ -1,0 +1,353 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #f1ecec;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ba2121;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    width: 50%;
+    margin: 20px auto;
+    border-top: 1px solid #ccc;
+}
+
+h1, h2 {
+    font-weight: 700;
+}
+
+p, a {
+    font-weight: 400;
+}
+
+a {
+    color: #030303;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px 0;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+.fas, .fab {
+    margin-right: 1px;
+    color: inherit;
+}
+
+.icon-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+    color: #f1ecec;
+    font-size: 24px;
+    transition: transform 0.3s ease;
+}
+
+.email-icon {
+    background-color: linear-gradient(to right, #ed4b39, #181817); 
+}
+
+.linkedin-icon {
+    background-color: #0e7cd5;
+}
+
+.icon-link:hover {
+    transform: scale(1.1);
+    color: #fff;
+}
+
+header, footer {
+    background: linear-gradient(to right, #831bcd, #f9620b);
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+    opacity: 1 !important;
+    visibility: visible !important;
+    display: block !important;
+}
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+#Connect p a img {
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%; 
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+}
+
+#Connect p a:hover img {
+    transform: scale(1.1); 
+}
+
+button, .nav-btn {
+    opacity: 1 !important;
+    visibility: visible !important;
+    pointer-events: auto !important;
+}
+
+button:disabled,
+.nav-btn:disabled {
+    opacity: 1 !important;
+    cursor: pointer !important;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    object-fit: cover;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+ul li {
+    background: #f0f2f5;
+    padding: 10px 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #f1ecec;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    justify-content: flex-start;
+}
+
+.form-group label {
+    flex: 0 0 80px;
+    margin-right: 10px;
+    text-align: right;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    flex-grow: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: auto;
+}
+
+form button {
+    width: calc(100% - 90px);
+    padding: 10px 20px;
+    margin-left: auto;
+    margin-top: 10px;
+    background-image: linear-gradient(to right, #831bcd, #f9620b);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-image 0.3s ease;
+}
+
+form button:hover {
+    background-image: linear-gradient(to right, #f9620b, #831bcd);
+}
+
+#blog {
+    padding: 20px;
+    text-align: center;
+}
+
+.blog-post {
+    background: #f1ecec;
+    padding: 20px;
+    margin: 10px auto;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    max-width: 800px;
+}
+
+.blog-post h3 {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.blog-post p {
+    font-weight: 400;
+}
+
+.blog-post a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.blog-post a:hover {
+    text-decoration: underline;
+}
+
+.skill {
+    text-align: left;
+    margin: 20px 0;
+}
+.progress {
+    width: 80%;
+    background-color: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 10px auto;
+    height: 30px;
+}
+
+.progress-bar {
+    height: 100%;
+    width: 0;
+    background: linear-gradient(to right, #0479f7, #a2d0dd);
+    text-align: center;
+    line-height: 30px;
+    color: white;
+    font-weight: bold;
+    transition: width 1s ease-in-out;
+}
+
+.portfolio-links {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #f1ecec;  
+    border-radius: 10px;  
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);  
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; 
+}
+
+.portfolio-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 5px 15px;
+    display: inline-block;
+}
+
+.portfolio-links:hover {
+    transform: scale(1.05);  
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);  
+}
+.project-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    justify-items: center;
+}
+
+.project-card {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 350px;
+}
+
+.project-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.project-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 0; 
+}
+
+
+.project-info {
+    padding: 15px;
+    text-align: center;
+}
+
+.project-info h3 {
+    margin: 10px 0;
+    font-size: 1.3rem;
+}
+
+.project-info p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.project-links {
+    margin-top: 10px;
+}
+
+.project-links a {
+    display: inline-block;
+    padding: 8px 15px;
+    margin: 5px;
+    background: linear-gradient(to right, #831bcd, #f9620b);
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.project-links a:hover {
+    background: linear-gradient(to right, #f9620b, #831bcd);
+}
+
+
+
